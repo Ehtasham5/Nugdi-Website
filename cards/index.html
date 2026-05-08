@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NUGDi</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/NUGDi Logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="navbar" id="navbar">
+      <div class="navbar-logo">
+        <img src="img/NUGDi Logo.png" alt="NUGDi Logo" />
+        <span>NUGDi</span>
+      </div>
+      <ul class="navbar-links" id="navbarLinks">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#">NUGDi Business</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li class="demo-mobile"><button class="demo-btn">Demo</button></li>
+        <!-- Actions moved here for mobile menu -->
+        <li class="mobile-actions">
+          <div class="language-toggle" onclick="toggleLanguage()">
+            <span class="lang-text no-text active">EN</span>
+            <div class="toggle-slider">
+              <img
+                id="flagIcon"
+                src="https://flagcdn.com/w320/no.png"
+                alt="Flag"
+              />
+            </div>
+            <span class="lang-text en-text">NO</span>
+          </div>
+          <div class="login">
+            <a href="#">SignUp/Login</a>
+            <div class="icon">
+              <i class="fa-solid fa-user"></i>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <!-- Actions here for desktop -->
+      <div class="navbar-actions desktop-actions">
+        <div class="language-toggle" onclick="toggleLanguage()">
+          <span class="lang-text no-text active">EN</span>
+          <div class="toggle-slider">
+            <img
+              id="flagIcon"
+              src="https://flagcdn.com/w320/no.png"
+              alt="Flag"
+            />
+          </div>
+          <span class="lang-text en-text">NO</span>
+        </div>
+        <div class="login">
+          <a href="#">SignUp/Login</a>
+          <div class="icon">
+            <i class="fa-solid fa-user"></i>
+          </div>
+        </div>
+        <!-- <button class="demo-btn desktop-demo">Demo</button> -->
+      </div>
+      <div
+        class="navbar-toggle"
+        id="navbarToggle"
+        aria-label="Toggle navigation"
+        role="button"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <div class="hero-badge">
+          We provide quality which gain results
+          <span class="badge-icon">⚡</span>
+        </div>
+        <h1>
+          <span class="highlight">NUGDi</span> Smart Salon Sales and Solution
+          Partner
+        </h1>
+        <!-- <button class="hero-cta demo-btn">Get Started</button> -->
+        <div class="services-grid">
+          <div class="service-item">
+            <img loading="lazy" src="img/1st Frame.png" alt="Hair & Styling" />
+            <div class="service-text">Hair & Styling</div>
+          </div>
+          <div class="service-item">
+            <img loading="lazy" src="img/2nd Frame.png" alt="Body Shop" />
+            <div class="service-text">Body Shop</div>
+          </div>
+          <div class="service-item">
+            <img loading="lazy" src="img/3rd Frame.png" alt="Dine In" />
+            <div class="service-text">Dine In</div>
+          </div>
+          <div class="service-item">
+            <img loading="lazy" src="img/4th Frame.png" alt="Dentist" />
+            <div class="service-text">Dentist</div>
+          </div>
+          <div class="service-item">
+            <img loading="lazy" src="img/5th Frame.png" alt="Car Repair" />
+            <div class="service-text">Car Repair</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section">
+      <div class="about-container">
+        <h2 class="section-heading">
+          <span class="heading-line"
+            >Grow Faster, Manage Smarter With
+            <span class="highlight">NUGDi</span></span
+          >
+        </h2>
+        <div class="info-box">
+          <div class="info-box-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3>Who we are</h3>
+          <p>
+            <span class="highlight">NUGDi</span> is a technology company that
+            connects people with the best in their cities or globally in an
+            advanced rating-driven system and hierarchical structure. We do this
+            through our comprehensive B2B and B2C business model that serves all
+            players and stakeholders in the food, beverage and grocery industry.
+            The company aims to inspire a shift in the on-demand food and
+            grocery industry.
+          </p>
+        </div>
+        <div class="info-box">
+          <div class="info-box-icon">
+            <i class="fas fa-heart"></i>
+          </div>
+          <h3>Delivering good things to customers</h3>
+          <p>
+            With your favorite restaurants and shops within easy reach,
+            <span class="highlight">NUGDi</span>
+            Satisfy your desires and connect you with opportunities. Save more
+            time and energy for yourself and your loved ones. Experience smarter
+            choices and seamless access to everything you need - anytime,
+            anywhere.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="feature-sections">
+      <div class="feature">
+        <div class="feature-icon-wrapper">
+          <i class="fas fa-cloud"></i>
+        </div>
+        <p>
+          <strong>Secure</strong><br />
+          Cloud
+        </p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon-wrapper">
+          <i class="fas fa-shield-alt"></i>
+        </div>
+        <p>
+          <strong>Advanced</strong><br />
+          Security
+        </p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon-wrapper">
+          <i class="fas fa-chart-line"></i>
+        </div>
+        <p>
+          <strong>Real-time</strong><br />
+          Analytics
+        </p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon-wrapper">
+          <i class="fas fa-mobile-alt"></i>
+        </div>
+        <p>
+          <strong>Mobile</strong><br />
+          Ready
+        </p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon-wrapper">
+          <i class="fas fa-sync-alt"></i>
+        </div>
+        <p>
+          <strong>Auto</strong><br />
+          Sync
+        </p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon-wrapper">
+          <i class="fas fa-headset"></i>
+        </div>
+        <p>
+          <strong>24/7</strong><br />
+          Support
+        </p>
+      </div>
+    </div>
+
+    <div class="foodsted-promotion">
+      <div class="promotion-left">
+        <h1>Last ned FOODSTED-APPEN!</h1>
+        <div class="qr-code-section">
+          <div class="qr-wrapper">
+            <img src="img/QR.png" alt="QR Code" class="qr-code" />
+          </div>
+          <p>
+            Fra favorittstedene dine til inngangsdøren din – bestill nå og nyt
+            smakene du elsker, raskt og enkelt. Last ned FOODSTED-APPEN nå!
+          </p>
+        </div>
+        <div class="app-images">
+          <a href="#" class="app-link">
+            <img
+              src="img/App-store.png"
+              alt="Download on App Store"
+              class="app-store"
+            />
+          </a>
+          <a href="#" class="app-link">
+            <img
+              src="img/Play-store.png"
+              alt="Get it on Google Play"
+              class="play-store"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="promotion-right">
+        <div class="img-container">
+          <img src="img/FS-Mobile-Mockup.png" alt="FOODSTED Mobile App" />
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-items main-footer-item">
+        <div class="footer-logo">
+          <a href="index.html">
+            <img src="img/NUGDi Logo.png" alt="FOODSTED Logo" />
+          </a>
+          <h2>NUGDi</h2>
+        </div>
+        <p class="footer-para">
+          NUGDi is a technology company that connects people with the best in
+          their cities or globally in an advanced rating powered system and
+          hierarchical structure.
+        </p>
+        <div class="footer-socials">
+          <a href="#" class="social-link" aria-label="Facebook">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="#" class="social-link" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="#" class="social-link" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="#" class="social-link" aria-label="YouTube">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer-items">
+        <h2 class="footer-heading">Legal</h2>
+        <ul class="footer-links">
+          <li><a href="#" class="footer-link">Privacy Policy</a></li>
+          <li><a href="#" class="footer-link">Terms and Conditions</a></li>
+          <li><a href="#" class="footer-link">Cookies</a></li>
+          <li><a href="#" class="footer-link">Career</a></li>
+          <li><a href="#" class="footer-link">Refund Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-items">
+        <h2 class="footer-heading">Quick Links</h2>
+        <ul class="footer-links">
+          <li><a href="#" class="footer-link">Add your Restaurant</a></li>
+          <li><a href="#" class="footer-link">Smart Restaurant Solution</a></li>
+          <li><a href="#" class="footer-link">Register Rider</a></li>
+          <li><a href="#" class="footer-link">Download Rider App</a></li>
+          <li><a href="#" class="footer-link">Rider Rule</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="copyright-section">
+      <p class="copyright">
+        &copy; Opphavsrett 2025 Alle rettigheter forbeholdt
+      </p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

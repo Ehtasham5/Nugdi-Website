@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-en="NUGDi" data-no="NUGDi">NUGDi</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="img/NUGDi Favicon.png" sizes="196x196" type="image/png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <nav class="navbar" id="navbar">
+    <a href="#">
+
+      <div class="navbar-logo">
+        <img src="img/NUGDi Logo.png" alt="NUGDi Logo" />
+        <span data-en="NUGDi" data-no="NUGDi">NUGDi</span>
+      </div>
+    </a>
+    <ul class="navbar-links" id="navbarLinks">
+
+      <li><a href="#Hero" data-en="NUGDi Business" data-no="NUGDi for bedrift">NUGDi Business</a></li>
+      <li><a href="#" data-en="Privacy Policy" data-no="Personvernerklæring">Privacy Policy</a></li>
+      <li><a href="#" data-en="Terms of Service" data-no="Vilkår for tjenesten">Terms of Service</a></li>
+    </ul>
+    <div class="navbar-actions">
+      <div class="language-toggle" onclick="toggleLanguage()">
+        <span class="lang-text no-text active" data-en="NO" data-no="NO">NO</span>
+        <div class="toggle-slider">
+          <img id="flagIcon" src="https://flagcdn.com/w320/us.png" alt="Flag" />
+        </div>
+        <span class="lang-text en-text" data-en="EN" data-no="EN">EN</span>
+      </div>
+    </div>
+    <div class="navbar-toggle" id="navbarToggle" aria-label="Toggle navigation" role="button">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-badge" data-en="We provide quality which gain results ⚡"
+        data-no="Vi tilbyr kvalitet som gir resultater ⚡">
+        We provide quality which gain results
+        <span class="badge-icon">⚡</span>
+      </div>
+      <h1>
+        <span class="highlight">NUGDi ⎯</span> <span data-en="Time well booked" data-no="Data godt bestilt">Time well
+          booked</span>
+      </h1>
+      <div class="services-row">
+        <div class="service-item service-large">
+          <a href="#">
+
+            <img src="img/1st Frame.png" alt="Hair & Styling" />
+          </a>
+          <div class="service-text" data-en="Hair & Styling" data-no="Hår og styling">
+            Hair & Styling
+          </div>
+        </div>
+        <div class="service-column">
+          <div class="service-item service-small">
+            <a href="#">
+
+              <img src="img/2nd Frame.png" alt="Body Shop" />
+            </a>
+            <div class="service-text" data-en="Body Shop" data-no="Kroppsbod">Body Shop</div>
+          </div>
+          <div class="service-item service-small">
+            <a href="#">
+
+              <img src="img/3rd Frame.png" alt="Dine In" />
+            </a>
+            <div class="service-text" data-en="Dine In" data-no="Spise inne">Dine In</div>
+          </div>
+        </div>
+        <div class="service-item service-tall">
+          <a href="#">
+
+            <img src="img/4th Frame.png" alt="Dentist" />
+          </a>
+          <div class="service-text" data-en="Dentist" data-no="Tannlege">Dentist</div>
+        </div>
+        <div class="service-item service-tall">
+          <a href="#">
+
+            <img src="img/5th Frame.png" alt="Car Repair" />
+          </a>
+          <div class="service-text" data-en="Car Repair" data-no="Bilreparasjon">Car Repair</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <span id="Hero"></span>
+  <section class="business">
+    <div class="business-left">
+      <h1 class="heading">
+        <span class="highlight">NUGDi</span>
+        <span data-en="For Business" data-no="for bedrift">For Business</span>
+      </h1>
+      <p class="description"
+        data-en="Supercharge your business for free with massive world's top booking platform for salons and spas. Independently voted no.1 by industry professionals"
+        data-no="Gi næringslivet et løft gratis med verdens ledende bookingplattform for salonger og spa. Uavhengig kåret nr. 1 av bransjeeksperter">
+        Supercharge your business for free with massive world's top booking platform for salons and spas. Independently
+        voted no. 1 by industry professionals
+      </p>
+      <button id="openFormBtn" data-en="Apply Now" data-no="Søk nå">Apply Now</button>
+    </div>
+    <div class="business-right">
+      <img src="./img/NUGDi Business.png" alt="" />
+    </div>
+  </section>
+
+  <div class="marquee-container">
+    <div class="marquee-track">
+      <div class="marquee-text" data-en="NUGDi Will Heal Your Problems With Smart Booking System"
+        data-no="NUGDi vil løse dine problemer med et smart bookingsystem">
+        NUGDi Will Heal Your Problems With Smart Booking System
+      </div>
+      <hr style="background-color: #f1f1f1" />
+      <!-- duplicated as above -->
+      <div class="marquee-text" data-en="NUGDi Will Heal Your Problems With Smart Booking System"
+        data-no="NUGDi vil løse dine problemer med et smart bookingsystem">
+        NUGDi Will Heal Your Problems With Smart Booking System
+      </div>
+      <hr style="background-color: #f1f1f1" />
+      <div class="marquee-text" data-en="NUGDi Will Heal Your Problems With Smart Booking System"
+        data-no="NUGDi vil løse dine problemer med et smart bookingsystem">
+        NUGDi Will Heal Your Problems With Smart Booking System
+      </div>
+      <div class="marquee-text" data-en="NUGDi Will Heal Your Problems With Smart Booking System"
+        data-no="NUGDi vil løse dine problemer med et smart bookingsystem">
+        NUGDi Will Heal Your Problems With Smart Booking System
+      </div>
+      <div class="marquee-text" data-en="NUGDi Will Heal Your Problems With Smart Booking System"
+        data-no="NUGDi vil løse dine problemer med et smart bookingsystem">
+        NUGDi Will Heal Your Problems With Smart Booking System
+      </div>
+    </div>
+  </div>
+  <section class="about-section">
+    <div class="about-container" id="aboutContainer">
+      <h2 class="section-heading">
+        <span class="heading-line">
+          <span data-en="Grow Faster, Manage Smarter With " data-no="Vokse raskere, administrere smartere med ">Grow
+            Faster, Manage Smarter With </span><span class="highlight">NUGDi</span>
+        </span>
+      </h2>
+      <div class="info-box">
+        <div class="info-box-icon"><i class="fas fa-users"></i></div>
+        <h3 data-en="About Us" data-no="Om oss">About Us</h3>
+        <p>
+          <span class="highlight">NUGDi</span> <span data-en=" is a technology company that connects people with the best in their cities or globally in an advanced
+          rating-driven system and hierarchical structure. We do this through our comprehensive B2B and B2C business
+          model that serves all players and stakeholders in the food, beverage and grocery industry. The company aims to
+          inspire a shift in the on-demand food and grocery industry."
+            data-no=" er et teknologiselskap som forbinder mennesker med det beste i byene sine eller globalt i et avansert vurderingsdrevet system og hierarkisk struktur. Vi gjør dette gjennom vår omfattende B2B- og B2C-forretningsmodell som betjener alle aktører og interessenter i mat-, drikke- og dagligvareindustrien. Selskapet har som mål å inspirere til en endring i den etterspørselsdrevne mat- og dagligvareindustrien.">is
+            a technology company that connects people with the best in their cities or
+            globally in an advanced
+            rating-driven system and hierarchical structure. We do this through our comprehensive B2B and B2C business
+            model that serves all players and stakeholders in the food, beverage and grocery industry. The company aims
+            to
+            inspire a shift in the on-demand food and grocery industry.</span>
+        </p>
+      </div>
+      <div class="info-box" id="infoBox">
+        <div class="info-box-icon"><i class="fas fa-heart"></i></div>
+        <h3 data-en="NUGDi Service" data-no="NUGDi-tjeneste">NUGDi Service</h3>
+        <p>
+          <span class="highlight">NUGDi</span> <span data-en=" is a powerful all-in-one business management and appointment booking platform built specifically for
+          salons, spas, clinics, wellness centers, and service professionals. It empowers businesses to streamline daily
+          operations, manage appointments seamlessly, accept secure payments, track client activity, and drive revenue
+          growth—both online and at the point of service."
+            data-no=" er en kraftfull alt-i-ett plattform for forretningsledelse og avtalebooking, bygget spesielt for frisørsalonger, spa, klinikker, velværesentre og tjenesteytere. Den gir bedrifter mulighet til å effektivisere daglige operasjoner, håndtere avtaler sømløst, ta imot sikre betalinger, spore kundeaktivitet og drive inntektsvekst - både på nettet og på servicestedet.">is
+            a powerful all-in-one business management and appointment booking
+            platform built specifically for
+            salons, spas, clinics, wellness centers, and service professionals. It empowers businesses to streamline
+            daily
+            operations, manage appointments seamlessly, accept secure payments, track client activity, and drive revenue
+            growth—both online and at the point of service.</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="feature-sections">
+    <div class="feature">
+      <div class="feature-icon-wrapper"><i class="fas fa-cloud"></i></div>
+      <p><strong data-en="Secure" data-no="Sikker">Secure</strong><br />
+        <span data-en="Cloud" data-no="Sky">Cloud</span>
+      </p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon-wrapper"><i class="fas fa-shield-alt"></i></div>
+      <p><strong data-en="Advanced" data-no="Avansert">Advanced</strong><br />
+        <span data-en="Security" data-no="Sikkerhet">Security</span>
+      </p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon-wrapper"><i class="fas fa-chart-line"></i></div>
+      <p><strong data-en="Real-time" data-no="Sanntids">Real‑time</strong><br />
+        <span data-en="Analytics" data-no="analyse">Analytics</span>
+      </p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon-wrapper"><i class="fas fa-mobile-alt"></i></div>
+      <p><strong data-en="Mobile" data-no="Mobil">Mobile</strong><br />
+        <span data-en="Application" data-no="applikasjon">Application</span>
+      </p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon-wrapper"><i class="fas fa-sync-alt"></i></div>
+      <p><strong data-en="Limitless" data-no="Ubegrenset">Limitless</strong><br />
+        <span data-en="Integration" data-no="integrasjon">Integration</span>
+      </p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon-wrapper"><i class="fas fa-headset"></i></div>
+      <p><strong data-en="24/7" data-no="24/7">24/7</strong><br />
+        <span data-en="Support" data-no="Støtte">Support</span>
+      </p>
+    </div>
+  </div>
+
+  <div class="promotion">
+    <div class="promo-banner-last">
+      <div class="promo-content-last">
+        <p class="sub-heading-last" data-en="Download the App" data-no="Last ned appen">
+          Download the App
+        </p>
+        <h2 class="main-heading-last" data-en="Download NUGDi & Enjoy Your Bookings"
+          data-no="Last ned NUGDi og nyt dine bookinger">
+          Download <span class="highlight">NUGDi</span> &<br />
+          Enjoy Your Bookings
+        </h2>
+        <div class="app-badges-last">
+          <a href="#" aria-label="Download on the App Store">
+            <img src="img/App-store.png" alt="App Store badge" />
+          </a>
+          <a href="#" aria-label="Get it on Google Play">
+            <img src="img/Play-store.png" alt="Google Play badge" />
+          </a>
+        </div>
+      </div>
+      <div class="promo-images-last">
+        <img src="img/NUGDi App UI Design.png" alt="App UI" class="burger-img" />
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-items main-footer-item">
+      <div class="footer-logo">
+        <a href="index.html"><img src="img/NUGDi Logo.png" alt="NUGDi Logo" /></a>
+        <h2 data-en="NUGDi" data-no="NUGDi">NUGDi</h2>
+      </div>
+      <p class="footer-para"
+        data-en="NUGDi is a technology company that connects people with the best in their cities or globally in an advanced rating powered system and hierarchical structure."
+        data-no="NUGDi er et teknologiselskap som kobler folk med det beste i sine byer eller globalt i et avansert vurderingsdrevet system og hierarkisk struktur.">
+        NUGDi is a technology company that connects people with the best in their cities or globally in an advanced
+        rating powered system and hierarchical structure.
+      </p>
+      <div class="footer-socials">
+        <a href="#" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#" class="social-link" aria-label="YouTube"><i class="fa-brands fa-google"></i></a>
+      </div>
+    </div>
+    <div class="footer-items">
+      <h2 class="footer-heading" data-en="Legal" data-no="Juridisk">Legal</h2>
+      <ul class="footer-links">
+        <li><a href="#" class="footer-link" data-en="Privacy Policy" data-no="Personvernerklæring">Privacy Policy</a>
+        </li>
+        <li><a href="#" class="footer-link" data-en="Terms and Conditions" data-no="Vilkår og betingelser">Terms and
+            Conditions</a></li>
+        <li><a href="#" class="footer-link" data-en="Cookies" data-no="Informasjonskapsler">Cookies</a></li>
+        <li><a href="#" class="footer-link" data-en="Career" data-no="Karriere">Career</a></li>
+        <li><a href="#" class="footer-link" data-en="Refund Policy" data-no="Refusjonspolicy">Refund Policy</a></li>
+      </ul>
+    </div>
+    <div class="footer-items">
+      <h2 class="footer-heading" data-en="Quick Links" data-no="Hurtiglenker">Quick Links</h2>
+      <ul class="footer-links">
+        <li><a href="#Hero" class="footer-link" data-en="NUGDi for Business" data-no="NUGDi for bedriftsbruk">NUGDi for
+            Business</a></li>
+        <li><a href="#" class="footer-link" data-en="Support" data-no="Support">Support</a></li>
+        <li><a href="#" class="footer-link" data-en="Pricing" data-no="Priser">Pricing</a></li>
+        <li><a href="#aboutContainer" class="footer-link" data-en="About us" data-no="Om oss">About us</a></li>
+        <li><a href="#infoBox" class="footer-link" data-en="NUGDi Service" data-no="NUGDi‑tjeneste">NUGDi Service</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <div class="copyright-section">
+    <p class="copyright" data-en="© Copyright 2025 NUGDi All rights reserved"
+      data-no="© Opphavsrett 2025 NUGDi Alle rettigheter forbeholdt">
+      © Copyright 2025 NUGDi All rights reserved
+    </p>
+  </div>
+
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-content">
+      <span class="close-btn" id="closeBtn">&times;</span>
+      <h2 class="form-title"><span class="highlight">NUGDi</span><span data-en=" for Business" data-no=" for bedrift">
+          for Business</span></h2>
+      <form id="applicationForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="firstName" data-en="First Name *" data-no="Fornavn *">First Name *</label>
+            <input type="text" id="firstName" name="firstName" required>
+            <span class="error-message" id="firstNameError" data-en="First name is required"
+              data-no="Fornavn er påkrevd">
+              First name is required
+            </span>
+          </div>
+          <div class="form-group">
+            <label for="lastName" data-en="Last Name *" data-no="Etternavn *">Last Name *</label>
+            <input type="text" id="lastName" name="lastName" required>
+            <span class="error-message" id="lastNameError" data-en="Last name is required"
+              data-no="Etternavn er påkrevd">
+              Last name is required
+            </span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email" data-en="Email Address *" data-no="E‑postadresse *">Email Address *</label>
+          <input type="email" id="email" name="email" required>
+          <span class="error-message" id="emailError" data-en="Please enter a valid email"
+            data-no="Vennligst angi en gyldig e‑post">
+            Please enter a valid email
+          </span>
+        </div>
+        <div class="form-group">
+          <label data-en="Phone Number *" data-no="Telefonnummer *">Phone Number *</label>
+          <div class="phone-input-group">
+            <select class="country-code-select" id="countryCode" name="countryCode" required>
+              <option value="" data-en="Select Code" data-no="Velg kode">Select Code</option>
+              <option value="+44">UK (+44)</option>
+              <option value="+1">Canada (+1)</option>
+              <option value="+92">Pakistan (+92)</option>
+            </select>
+            <input type="tel" class="phone-number-input" id="phoneNumber" name="phoneNumber" placeholder="Phone number"
+              required>
+          </div>
+          <span class="error-message" id="phoneError" data-en="Phone number is required"
+            data-no="Telefonnummer er påkrevd">
+            Phone number is required
+          </span>
+        </div>
+        <div class="form-group">
+          <label for="country" data-en="Country *" data-no="Land *">Country *</label>
+          <select id="country" name="country" required>
+            <option value="" data-en="Select Country" data-no="Velg land">Select Country</option>
+            <option value="UK" data-en="United Kingdom" data-no="Storbritannia">United Kingdom</option>
+            <option value="Canada">Canada</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Other" data-en="Other" data-no="Annet">Other</option>
+          </select>
+          <span class="error-message" id="countryError" data-en="Please select your country"
+            data-no="Vennligst velg land">Please select your country</span>
+        </div>
+        <div class="checkbox-group">
+          <input type="checkbox" id="privacyPolicy" name="privacyPolicy" required>
+          <label for="privacyPolicy"
+            data-en="I agree to the Privacy Policy and consent to the processing of my personal data. *"
+            data-no="Jeg godtar Personvernerklæringen og samtykker til behandling av mine personopplysninger. *">
+            I agree to the Privacy Policy and consent to the processing of my personal data. *
+          </label>
+        </div>
+        <span class="error-message" id="privacyError" style="margin-top: -15px; margin-bottom: 15px; display: none;"
+          data-en="You must agree to the privacy policy" data-no="Du må godta personvernerklæringen">
+          You must agree to the privacy policy
+        </span>
+        <button type="submit" class="submit-btn" data-en="Submit Now" data-no="Send inn nå">Submit Now</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
